@@ -11,7 +11,7 @@ class Config:
     API_HASH = os.environ.get("bff1312891e6f4a8ac4eff8670ee3aab", "")
 
      # Sql Database url
-    DATABASE_URL = os.environ.get("postgres://pvugaloeoaljju:f44a0f13eaf84f272b903e2ac0b1d91161a3da7725ca508f95c514ad3c69739a@ec2-18-214-195-34.compute-1.amazonaws.com:5432/de723mjqnc4ig0", "")
+    DATABASE_URL = os.environ.get("postgres://ukiqvyntxzlcxd:5d0aa4c056e0e92403da585ba8d591a26a7d623b1ef771374b7e9fb105238dcf@ec2-52-23-40-80.compute-1.amazonaws.com:5432/d2i0929g7er784", "")
 
     # the download location, where the HTTP Server runs
     DOWNLOAD_DIRECTORY = "./DOWNLOADS"
