@@ -3,25 +3,25 @@ import os
 class Config:
 
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("1900842165:AAF_Cbx3qKvMxZvONEqAeGqlai5crlFy6X4", "")
 
     # The Telegram API things
     # Get these values from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH", "")
+    APP_ID = int(os.environ.get("7891804", 12345))
+    API_HASH = os.environ.get("bff1312891e6f4a8ac4eff8670ee3aab", "")
 
      # Sql Database url
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("postgres://pvugaloeoaljju:f44a0f13eaf84f272b903e2ac0b1d91161a3da7725ca508f95c514ad3c69739a@ec2-18-214-195-34.compute-1.amazonaws.com:5432/de723mjqnc4ig0", "")
 
     # the download location, where the HTTP Server runs
     DOWNLOAD_DIRECTORY = "./DOWNLOADS"
 
-    G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", "568fguijfdry.goohle.com")
+    G_DRIVE_CLIENT_ID = os.environ.get("1027208620158-5ttjl8v3ham50v9iui072ptspu59idog.apps.googleusercontent.com", "568fguijfdry.goohle.com")
 
-    G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", "FxvbXbjuyr357e34fcj8")
+    G_DRIVE_CLIENT_SECRET = os.environ.get("RBcE7RWYRR1PftNm5m1KB7Mq", "FxvbXbjuyr357e34fcj8")
     
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("881253780", "").split())
 
 
 class BotCommands:
